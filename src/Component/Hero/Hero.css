@@ -1,0 +1,41 @@
+.hero {
+    color: #ceccd4;
+}
+.hero .fp {
+    /* height: 20px; */
+    width: 300px;
+    padding-block: 4px;
+    border-radius: 31px;
+    background-color: #24202d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #46434f;
+}
+.hero .sp{
+    font-size: 20px;
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+    margin-bottom: 20px;
+}
+.hero button {
+    width: 240px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero button .arr{
+    transform: translateY(2px);
+}
+.hero img{
+    min-width: 1920px;
+}
+@media (max-width: 550px) {
+    .hero img{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    background-color: oklch(0.31 0.03 304.46);
+    background-image: url("/assets/images/free-layer-blur.png");
+    background-size: fit-content;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+button {
+    color: #ceccd4;
+}
+button {
+    cursor: pointer;
+}
+
+p {
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+}

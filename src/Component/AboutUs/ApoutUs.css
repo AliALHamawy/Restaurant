@@ -1,0 +1,91 @@
+.about {
+    background-color: oklch(0.25 0.02 298.75);
+    color: #ceccd4;
+}
+
+.about p {
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+}
+
+.about button {
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    transition: all .3s;
+}
+
+.about button .arr{
+    transform: translateY(2px);
+}
+
+.about .aboutInfo {
+    background-color: #332e3c;
+    z-index: 9999999999999999999999;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    border: 1px solid #524e5b;
+}
+
+.about .aboutInfo .infoGroup span:first-child {
+    color: #422f6d;
+}
+
+.about .aboutInfo .infoGroup h2 {
+    color: #7033ff;
+}
+
+.about .aboutInfo .infoGroup p {
+    font-size: 17px;
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+    font-weight: 400;
+}
+
+@media (max-width: 1025px) {
+
+    .about .aboutInfo {
+        display: flex;
+        transform: translateY(0);
+        margin-top: 30px;
+        width: 100%;
+
+    }
+
+    .about .aboutInfo div {
+        flex-direction: column !important;
+        gap: 15px;
+    }
+}
+
+.largee{
+    display: flex;
+}
+.smalee{
+    display: none;
+}
+@media (max-width: 740px) {
+    .largee{
+        display: none;
+    }
+    .smalee{
+        display: flex;
+    }
+    .about .aboutInfo div .infoGroup {
+        flex-direction: column !important;
+    }
+    
+    .about .aboutInfo{
+        height: 100% !important;
+    }
+}
+@media (max-width: 540px) {
+    
+    .about .smalee .aboutInfo  {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

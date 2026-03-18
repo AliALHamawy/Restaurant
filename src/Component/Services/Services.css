@@ -1,0 +1,59 @@
+.services-cards .card {
+    border: 1px solid #524e5b;
+    border-radius: 14px;
+    width: 380px;
+}
+
+.services-cards .card img {
+    border-radius: 14px 14px 0 0;
+}
+
+.services-cards .card div {
+    min-height: 180px;
+}
+
+.services-cards .card button {
+    background-image: linear-gradient(102deg, oklch(38.213% 0.20828 284.257), oklch(51.097% 0.24984 287.575));
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.services-cards .card button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(204deg, oklch(39.637% 0.19251 287.877), oklch(0.51 0.26 286.67));
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: -1;
+}
+
+.services-cards .card button:hover::before {
+    opacity: 1;
+}
+
+/* Keep the button text above the pseudo-element */
+.services-cards .card button {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.services-cards button {
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.services-cards button .arr {
+    transform: translateY(2px);
+}

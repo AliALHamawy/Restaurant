@@ -1,0 +1,32 @@
+nav {
+    min-width: 80%;
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+    border-bottom: 1px solid oklch(0.43 0.02 299.59);
+    background-color: oklch(0.31 0.03 304.46);
+}
+
+button{
+    background-color: oklch(0.54 0.27 286.75);
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    border: 1px solid oklch(0.43 0.02 299.59);
+
+}
+
+nav .mid ul li,
+button{
+    transition: all .3s;
+}
+
+button:hover{
+    background: oklch(0.41 0.13 307.69);
+}
+
+nav .mid ul li:hover,
+nav .mid ul li:active{
+    color: oklch(0.41 0.13 307.69);
+}

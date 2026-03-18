@@ -1,0 +1,121 @@
+.feedBack {
+    background-color: oklch(0.25 0.02 298.75);
+}
+
+.left-bottom .feedCards .feedCard .mid {
+    color: oklch(0.73 0.15 68.95);
+}
+
+.left-bottom .feedCards {
+    max-width: 730px;
+}
+
+.left-bottom .feedCards .feedCard {
+    border: 1px solid oklch(0.43 0.02 299.59);
+    border-radius: 10px;
+    transition: all .3s;
+    max-width: 450px;
+    min-width: 360px;
+}
+
+.left-bottom .feedCards .feedCard:hover {
+    border: 1px solid oklch(53.93% 0.271 286.75);
+}
+
+.feedBack .container .right-top .btns button {
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 1425px) {
+
+    .left-bottom .feedCards {
+        max-width: 650px;
+    }
+
+    .left-bottom .feedCards .feedCard {
+        max-width: 450px;
+        min-width: 320px;
+
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .left-bottom .feedCards {
+        max-width: 600px;
+    }
+
+    .left-bottom .feedCards .feedCard {
+        max-width: 380px;
+        min-width: 295px;
+
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .left-bottom .feedCards {
+        max-width: 580px;
+    }
+
+    .left-bottom .feedCards .feedCard {
+        max-width: 380px;
+        min-width: 285px;
+
+    }
+}
+
+
+@media (max-width: 1025px) {
+    .feedBack .container {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feedBack .container .right-top {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .feedBack .container .right-top .btns {
+        display: flex;
+        margin: auto;
+    }
+
+
+    .feedBack .container .left-bottom {
+        display: flex;
+        text-align: left;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-bottom .feedCards {
+        max-width: 720px;
+    }
+
+    .left-bottom .feedCards .feedCard {
+        max-width: 450px;
+        min-width: 355px;
+    }
+}
+
+@media (max-width: 770px) {
+    .left-bottom .feedCards {
+        max-width: 360px;
+    }
+
+    .left-bottom .feedCards .feedCard {
+        max-width: 450px;
+        min-width: 360px;
+    }
+
+}
