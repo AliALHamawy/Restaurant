@@ -24,7 +24,7 @@
 
 .about .aboutInfo {
     background-color: #332e3c;
-    z-index: 9999999999999999999999;
+    z-index: 99999999;
     transform: translateY(-50%);
     border-radius: 8px;
     border: 1px solid #524e5b;

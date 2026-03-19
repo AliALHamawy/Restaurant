@@ -1,0 +1,18 @@
+.chef .image {
+    background-color: oklch(0.25 0.02 298.75);
+    border-radius: 10px 10px 0 0 ;
+}
+
+
+.chef .container {
+    flex-wrap: wrap;
+}
+
+.chef .chefCard {
+    border: 1px solid #514e59;
+    border-radius: 10px;
+}
+
+.chef .chefCard .nameDiv {
+    border-bottom: 1px solid #514e59;
+}

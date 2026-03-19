@@ -1,5 +1,5 @@
 import './App.css'
-import { Header, Hero, AboutUs, Services, Order, FeedBack } from './Import '
+import { Header, Hero, AboutUs, Services, Order, FeedBack,Chef } from './Import '
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Services />
       <FeedBack />
       <Order />
+      <Chef />
     </>
   )
 }

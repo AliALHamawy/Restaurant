@@ -3,6 +3,7 @@ nav {
     color: oklch(84.978% 0.01397 295.12 / 0.671);
     border-bottom: 1px solid oklch(0.43 0.02 299.59);
     background-color: oklch(0.31 0.03 304.46);
+    z-index: 99999999999999999999999999999999999999;
 }
 
 button{
