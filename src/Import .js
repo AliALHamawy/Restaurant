@@ -1,0 +1,6 @@
+export { default as Header } from './Component/Header/Header'
+export { default as Hero } from './Component/Hero/Hero'
+export { default as AboutUs } from './Component/AboutUs/AboutUs'
+export { default as Services } from './Component/Services/Services'
+export { default as FeedBack } from './Component/FeedBack/FeedBack'
+export { default as Order } from './Component/Order/Order'

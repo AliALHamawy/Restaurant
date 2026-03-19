@@ -1,0 +1,83 @@
+.order .container {
+    background: linear-gradient(105deg, #47317571, #67303a8a);
+    /* border: 1px solid linear-gradient(105deg, #473175b6, #67303ab6); */
+    /* border: 3px linear-gradient(105deg, oklch(0.33 0.04 301.26), oklch(0.32 0.03 328.5)); */
+    /* border: 300px ; */
+    /* border-image: linear-gradient(105deg, oklch(0.33 0.04 301.26), oklch(0.32 0.03 328.5)); */
+    /* padding: 10px; */
+    background-clip: padding-box;
+    border-radius: 15px;
+    max-height: 365px;
+}
+
+.order .border{
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(105deg, 
+        transparent 0%,        /* Start transparent */
+        #47317562 15%,           /* Fade to first color */
+        #4731759c 30%,           /* Fade to first color */
+        #67303a9a 50%,           /* Middle color */
+        #4731759c 70%,           /* Back to first color */
+        #47317563 85%,           /* Back to first color */
+        transparent 100%       /* End transparent */
+    ) 1;
+    border-image-slice: 1;
+}
+
+.order .container .right img {
+    max-height: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.order button {
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    transition: all .3s;
+}
+
+.order button .arr {
+    transform: translateY(2px);
+}
+
+@media (max-width: 1210px) {
+
+    .order .container .left h1 {
+        margin-top: 15px;
+        font-size: 37px !important;
+    }
+
+    .order .container .left {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1138px) {
+    .order .container .right {
+        display: none;
+    }
+
+    .order .container .left {
+        width: 90% !important;
+        margin: auto;
+        margin-top: 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order .container .left h1 {
+        font-size: 37px !important;
+    }
+
+    .order .container {
+        max-height: 550px;
+        width: 80%;
+    }
+}

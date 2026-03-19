@@ -4,7 +4,7 @@ import { IoMdArrowForward } from "react-icons/io";
 function Hero() {
     return (
         <>
-            <div className='hero flex flex-col m-auto justify-center align-middle text-center mt-30'>
+            <div className='hero flex flex-col m-auto justify-center align-middle text-center mt-40'>
                 
                 <div className='w-10/12 m-auto'>
                 <p className='fp m-auto'>Serving Food Lovers Since 2016 ❤️</p>

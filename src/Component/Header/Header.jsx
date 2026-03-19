@@ -11,8 +11,8 @@ function Header() {
     }
     return (
         <>
-            <nav className=''>
-                <div className="none flex container justify-between align-middle m-auto text-lg font-medium p-5 py-4 lg:p-20 lg:py-4 gap-1">
+            <nav className=' fixed w-[100%] top-0'>
+                <div className="none flex container justify-between align-middletext-lg font-medium p-5 lg:p-20 lg:py-4 gap-1 m-auto">
                     <div className="left flex justify-center align-middle text-center gap-1 ">
                         <img src="/assets/images/favicon/favicon.ico" alt="" className='w-8 h-9' />
                         <h1 className='pt-0.5'>Restaurant</h1>
