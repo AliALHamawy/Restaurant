@@ -1,6 +1,7 @@
 .hero {
     color: #ceccd4;
 }
+
 .hero .fp {
     /* height: 20px; */
     width: 300px;
@@ -12,11 +13,13 @@
     justify-content: center;
     border: 1px solid #46434f;
 }
-.hero .sp{
+
+.hero .sp {
     font-size: 20px;
     color: oklch(84.978% 0.01397 295.12 / 0.671);
     margin-bottom: 20px;
 }
+
 .hero button {
     width: 240px;
     font-size: 20px;
@@ -27,15 +30,20 @@
     text-align: center;
 }
 
-.hero button .arr{
+.hero button .arr {
     transform: translateY(2px);
 }
-.hero img{
+
+.hero img {
     min-width: 1890px;
 }
+
 @media (max-width: 550px) {
-    .hero img{
+    .hero img {
         display: none;
     }
-    
+
+    .hero button{
+        font-size: 18px !important;
+    }
 }
