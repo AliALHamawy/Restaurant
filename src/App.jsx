@@ -1,5 +1,6 @@
 import './App.css'
-import { Header, Hero, AboutUs, Services, Order, FeedBack,Chef } from './Import '
+import BookTable from './Component/BookTable/BookTable'
+import { Header, Hero, AboutUs, Services, Order, FeedBack, Chef, Questions } from './Import '
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <FeedBack />
       <Order />
       <Chef />
+      <BookTable />
+      <Questions />
     </>
   )
 }

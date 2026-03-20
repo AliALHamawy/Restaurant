@@ -34,7 +34,8 @@ function Header() {
                         <MdMenu className='lg:hidden visible menu text-4xl align-middle mt-0.5 p-1 ' onClick={togglemenu} />)}
                     </div>
                 </div>
-                <div className={`lg:hidden sm-ulDiv  transition-all duration-500 ease-in-out verflow-hidden ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className={`lg:hidden mobile-menu ${isMenuOpen ? 'open' : ''}`}>
+                {/* <div className={`lg:hidden sm-ulDiv  transition-all duration-500 ease-in-out verflow-hidden ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}> */}
                     <ul className='flex gap-5 flex-col sm-ul p-4'>
                         <li>Home</li>
                         <li>About Us</li>

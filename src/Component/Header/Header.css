@@ -31,3 +31,24 @@ nav .mid ul li:hover,
 nav .mid ul li:active{
     color: oklch(0.41 0.13 307.69);
 }
+.mobile-menu {
+    display: none;
+    background-color: oklch(0.31 0.03 304.46);
+    animation: slideDown 0.5s ease-in-out;
+}
+
+.mobile-menu.open {
+    display: block;
+}
+
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

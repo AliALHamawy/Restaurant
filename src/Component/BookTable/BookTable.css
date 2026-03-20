@@ -1,0 +1,181 @@
+.bookTable {
+    background-color: oklch(0.25 0.02 298.75);
+}
+
+.bookTable .container {
+    background-color: oklch(0.31 0.03 301.28);
+    border-radius: 15px;
+}
+
+.bookTable input,
+.bookTable textarea {
+    all: unset;
+    border: 1px solid #514e59;
+    transition: all .3s;
+    height: 30px;
+    width: 240px;
+    color: #ceccd4;
+    padding: 7px;
+    border-radius: 6px;
+
+}
+
+.bookTable textarea {
+    display: flex;
+    resize: none;
+    width: 520px;
+    height: 70px;
+    text-align: start;
+    align-items: start;
+
+}
+
+.bookTable input:hover {
+    border: 1px solid oklch(53.93% 0.271 286.75);
+}
+
+.bookTable .container .leftBook {
+    flex-wrap: wrap;
+    gap: 40px;
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+}
+
+.bookTable .container .leftBook .flex {
+    flex-wrap: wrap;
+}
+
+.bookTable .container .rightBook span {
+    color: oklch(53.93% 0.271 286.75);
+}
+
+.bookTable .container .rightBook>div {
+    border: 1px solid #514e59;
+    border-radius: 10px;
+}
+
+.bookTable .container label,
+.bookTable .container h1 {
+    font-size: 22px;
+}
+.bookTable .container .leftBook button {
+    height: 40px;
+    border-radius: 7px;
+    background-image: linear-gradient(102deg, oklch(38.213% 0.20828 284.257), oklch(51.097% 0.24984 287.575));
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+}
+
+.bookTable .container .leftBook button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(204deg, oklch(39.637% 0.19251 287.877), oklch(0.51 0.26 286.67));
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: -1;
+}
+
+.bookTable .container .leftBook button:hover::before {
+    opacity: 1;
+}
+
+.bookTable .bookHeader {
+    font-size: 30px !important;
+    color: oklch(84.978% 0.01397 295.12 / 0.671);
+}
+
+@media (max-width: 1025px) {
+
+    .bookTable input,
+    .bookTable textarea {
+        width: 540px !important;
+        margin: auto;
+    }
+
+    .bookTable .container .leftBook {
+        margin-bottom: 20px;
+    }
+
+    .bookTable .container .leftBook button {
+        margin: auto;
+    }
+
+    .bookTable .container .rightBook > div {
+        width: 540px;
+    }
+}
+@media (max-width: 730px) {
+
+    .bookTable input,
+    .bookTable textarea {
+        width: 500px !important;
+        margin: auto;
+    }
+
+    .bookTable .container .leftBook {
+        margin-bottom: 20px;
+    }
+
+    .bookTable .container .leftBook button {
+        margin: auto;
+    }
+    .bookTable .container{
+        width: 550px;
+    }
+    .bookTable .container .rightBook > div {
+        width: 500px;
+    }
+}
+@media (max-width: 600px) {
+
+    .bookTable input,
+    .bookTable textarea {
+        width: 400px !important;
+        margin: auto;
+    }
+
+    .bookTable .container .leftBook {
+        margin-bottom: 20px;
+    }
+
+    .bookTable .container .leftBook button {
+        margin: auto;
+    }
+    .bookTable .container{
+        width: 450px;
+    }
+    .bookTable .container .rightBook > div {
+        width: 400px;
+    }
+}
+@media (max-width: 500px) {
+
+    .bookTable input,
+    .bookTable textarea {
+        width: 310px !important;
+        margin: auto;
+    }
+
+    .bookTable .container .leftBook {
+        margin-bottom: 20px;
+    }
+
+    .bookTable .container .leftBook button {
+        margin: auto;
+    }
+    .bookTable .container{
+        width: 360px;
+    }
+    .bookTable .container .rightBook > div {
+        width: 310px;
+    }
+}

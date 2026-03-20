@@ -1,0 +1,54 @@
+.questions .container .bottomSection .questionsSlider .slide button {
+    background-color: transparent;
+    color: oklch(0.54 0.27 286.75);
+    justify-content: space-between;
+    /* width: 130px;  */
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questions .container .bottomSection .questionsSlider .slide {
+    transition: all .3s;
+    border: 1px solid transparent;
+}
+
+.questions .container .bottomSection .questionsSlider .slide:hover {
+    border-radius: 8px;
+    border: 1px solid oklch(0.54 0.27 286.75);
+    
+}
+
+.questions .container .bottomSection button.arr {
+    background-color: transparent ;
+    border: 1px solid oklch(0.54 0.27 286.75);
+    color: oklch(0.54 0.27 286.75);
+}
+.questions .container .bottomSection button.arr:hover {
+    background-color: oklch(0.54 0.27 286.75);
+    color: #ceccd4;
+}
+@media (max-width: 1160px) {
+.questions .container .bottomSection .questionsSlider{
+    max-width: 700px !important;
+}
+    
+}
+@media (max-width: 820px) {
+.questions .container .bottomSection .questionsSlider{
+    max-width: 350px !important;
+}
+    
+}
+@media (max-width: 500px) {
+.questions .container .bottomSection .questionsSlider{
+    max-width: 320px !important;
+    padding: 1px !important;
+    gap: 40px !important;
+}
+.questions .container .bottomSection .questionsSlider .slide{
+    width: 270px !important;
+}
+    
+}

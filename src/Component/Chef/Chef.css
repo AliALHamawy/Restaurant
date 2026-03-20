@@ -11,6 +11,10 @@
 .chef .chefCard {
     border: 1px solid #514e59;
     border-radius: 10px;
+    transition: all .3s;
+}
+.chef .chefCard:hover {
+    border: 1px solid oklch(0.54 0.27 286.75);
 }
 
 .chef .chefCard .nameDiv {
