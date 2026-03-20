@@ -1,19 +1,41 @@
 import './App.css'
 import BookTable from './Component/BookTable/BookTable'
-import { Header, Hero, AboutUs, Services, Order, FeedBack, Chef, Questions } from './Import '
+import { Header, Hero, AboutUs, Services, Order, FeedBack, Chef, Questions, Footer, DownBar } from './Import '
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <>
+
+
+
+
       <Header />
-      <Hero />
-      <AboutUs />
-      <Services />
+      <Element name="hero" id="hero">
+        <Hero />
+      </Element>
+      {/* <Hero id='hero' /> */}
+      <Element name="about" id="about">
+        <AboutUs />
+      </Element>
+      {/* <AboutUs id='about' /> */}
+      <Element name="services" id="services">
+        <Services />
+      </Element>
+      {/* <Services id='services' /> */}
       <FeedBack />
       <Order />
-      <Chef />
+      <Element name="team" id="team">
+        <Chef />
+      </Element>
+      {/* <Chef id='team' /> */}
       <BookTable />
-      <Questions />
+      <Element name="question" id="question">
+        <Questions />
+      </Element>
+      {/* <Questions id='question' /> */}
+      <DownBar />
+      <Footer />
     </>
   )
 }

@@ -18,7 +18,7 @@ button{
 
 }
 
-nav .mid ul li,
+nav .mid ul .abc,
 button{
     transition: all .3s;
 }
@@ -27,8 +27,8 @@ button:hover{
     background: oklch(0.41 0.13 307.69);
 }
 
-nav .mid ul li:hover,
-nav .mid ul li:active{
+nav .mid ul .abc:hover,
+nav .mid ul .abc:active{
     color: oklch(0.41 0.13 307.69);
 }
 .mobile-menu {

@@ -33,7 +33,7 @@ function Questions() {
     }
     return (
         <>
-            <div className="questions">
+            <div className="questions mb-10">
                 <div className="container flex flex-col max-w-[1250px] m-auto">
                     <div className="someTitle m-auto flex flex-col text-center my-20">
                         <h1 className='font-bold  2xl:text-5xl xl:text-5xl md:text-5xl text-3xl mb-5'>Frequently Asked Questions</h1>

@@ -1,0 +1,30 @@
+.downBar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downBar ul .abcd ,
+.downBar .downIcon,
+.downBar h1 {
+    color: rgba(206, 204, 214, 0.671);
+    transition: all .5s;
+    border-bottom: 1px transparent;
+}
+.downBar .downIcon{
+    font-size: 22px;
+}
+.downBar ul .abcd:hover {
+    color: #737275ab;
+    border-bottom: 1px solid #737275ab;
+}
+@media (max-width: 770px) {
+    .downBar {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .downBar ul {
+        gap: 25px;
+    }
+}
